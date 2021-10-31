@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="es">
   <head>
@@ -7,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
     <title>Colaborador</title>
   </head>
   <body>
@@ -48,17 +49,6 @@
       </nav> 
    
 
-
-<!-- pie de página -->
-    <br>
-    <br>
-
-    <div class="pie">
-      <div class="container-fluid bg-white text-center p-3 ">
-          <p class="small ">&copy; Todos los derechos reservados : : El taller : : Chile 2021</p>
-  
-      </div>
-    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
